@@ -9,7 +9,7 @@ function dataset_generate(NumSamples)
         U     = randi([1,3]);
         gamma_dB = -5 + 10 * rand(); 
         gamma = 10^(gamma_dB / 10);  
-        N     = randi([20, 30]);
+        N     = randi([20, 150]);
         B     = 12;              
         
         % d: Khoảng cách giữa các cổng
